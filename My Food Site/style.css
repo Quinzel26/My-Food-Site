@@ -1,6 +1,13 @@
 /* style.css */
 
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 body {
     background-color: rgba(197, 237, 199, 0.144);
     min-height: 100vh;
@@ -96,34 +103,31 @@ display: inline;
 }
 
 #Uno {
-    background-image: url("images/gonzalez.jpg");
-    
+    background-image: url("https://images.unsplash.com/photo-1482049016688-2d3e1b311543");
     padding-left: none;
     padding-right: none;
 }
 
 #Dos {
-    background-image: url("images/chad montano.jpg");
-    
+    background-image: url("https://images.unsplash.com/photo-1467003909585-2f8a72700288");
     padding-left: none;
-    padding right: none;
+    padding-right:none;
     
 }
 
 
 #Tres {
-    background-image: url("images/casy lee.jpg");
-    
+    background-image: url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38");
     padding-left: none;
     padding-right: 0;
 }
 
 
 
-.Menu {
+#Menu {
     text-align: center;
     display: flex;
-    height: auto;
+    height: 300px;
     color: whitesmoke;
     margin-bottom: 10px;
     background: linear-gradient(to right, #232526, #414345);
@@ -154,22 +158,22 @@ display: inline;
 
 
 button {
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient */
-    color: white; /* Text color */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    color: white; 
     font-size: 18px;
     font-weight: bold;
-    padding: 12px 24px; /* Button size */
+    padding: 12px 24px; 
     border: none;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; 
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
 button:hover {
-    transform: scale(1.05); /* Slightly enlarges on hover */
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Enhances shadow */
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); 
 }  
 
 button:hover {
