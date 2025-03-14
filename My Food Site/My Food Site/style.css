@@ -1,0 +1,191 @@
+/* style.css */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: rgba(197, 237, 199, 0.144);
+    min-height: 100vh;
+    margin: 0%;
+    width: 100%;
+}
+
+#Bera {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+    background-color: rgb(84, 102, 129);
+    width: 100%;
+
+}
+
+#Bera ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#Bera li {
+display: inline;
+}
+
+
+#Bera a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+
+#Bera a:hover {
+    color: rgb(197, 101, 63);
+}
+
+
+
+
+.Hero {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(188, 231, 178);
+
+}
+
+.Hero div {
+    overflow: hidden;
+    flex: 1;
+    height: 600px;
+    max-width: 43%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: wavy;
+
+}
+
+
+
+@media (max-width: 768px) {
+    .Hero {
+        flex-direction: inherit; 
+    }
+
+    .Hero div {
+        max-width: 100%; 
+    }
+}
+
+
+
+
+.Hero div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Uno {
+    background-image: url("https://images.unsplash.com/photo-1482049016688-2d3e1b311543");
+    padding-left: none;
+    padding-right: none;
+}
+
+#Dos {
+    background-image: url("https://images.unsplash.com/photo-1467003909585-2f8a72700288");
+    padding-left: none;
+    padding-right:none;
+    
+}
+
+
+#Tres {
+    background-image: url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38");
+    padding-left: none;
+    padding-right: 0;
+}
+
+
+
+#Menu {
+    text-align: center;
+    display: flex;
+    height: 300px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+
+
+
+
+#Four {
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+#Four h2 {
+    text-align: center;
+}
+
+
+#cro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+
+button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); 
+}  
+
+button:hover {
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+button:active {
+    transform: scale(0.95);
+
+}
